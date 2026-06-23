@@ -8,6 +8,6 @@ figma.connect(
     props: {
       selected: figma.enum("State", { Unselected: false, Selected: true }),
     },
-    example: ({ selected }) => <SizeOption selected={selected}>Medium</SizeOption>,
+    example: ({ selected }) => <SizeOption selected={selected} label="Medium" price="£128" />,
   },
 );
