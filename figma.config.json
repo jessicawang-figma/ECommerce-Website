@@ -1,0 +1,12 @@
+{
+  "codeConnect": {
+    "parser": "react",
+    "include": ["src/figma/**/*.figma.tsx", "src/components/**/*.tsx"],
+    "importPaths": {
+      "src/components/*": "@twigma/ui"
+    },
+    "documentUrlSubstitutions": {
+      "<FIGMA_FILE>": "https://www.figma.com/design/XCejTJyXlpZqCqkAx1BoYP/Twigma-Luxury-Plants-Design-System-v1"
+    }
+  }
+}

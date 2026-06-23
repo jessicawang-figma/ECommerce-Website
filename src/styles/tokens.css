@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600&family=Playfair+Display:wght@700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/**
+ * Semantic colour tokens — generated from the Twigma "Color" variable
+ * collection (Light + Dark modes). Primitive palette is documented inline.
+ */
+:root {
+  /* Backgrounds */
+  --tw-canvas: #faf7f1;
+  --tw-surface: #ffffff;
+  --tw-surface-muted: #f1ece2;
+  /* Text */
+  --tw-ink: #1b1915;
+  --tw-muted: #5e564a;
+  --tw-faint: #837766;
+  --tw-inverse: #faf7f1;
+  /* Borders */
+  --tw-line: #e5ddd0;
+  --tw-line-strong: #d2c7b6;
+  /* Brand / interactive */
+  --tw-forest: #33523c;
+  --tw-forest-hover: #2a4431;
+  --tw-forest-fg: #ffffff;
+  --tw-sage: #cbd8be;
+  --tw-sage-soft: #eef2e6;
+  --tw-clay: #b0673f;
+  --tw-clay-hover: #95562f;
+  /* Status */
+  --tw-success: #3f704b;
+  --tw-warning: #b98a36;
+  --tw-error: #b0503f;
+}
+
+.dark {
+  --tw-canvas: #1b1915;
+  --tw-surface: #2b2924;
+  --tw-surface-muted: #433f39;
+  --tw-ink: #faf7f1;
+  --tw-muted: #d2c7b6;
+  --tw-faint: #a99c88;
+  --tw-inverse: #1b1915;
+  --tw-line: #433f39;
+  --tw-line-strong: #5e564a;
+  --tw-forest: #7e9a6e;
+  --tw-forest-hover: #8fa97f;
+  --tw-forest-fg: #1b1915;
+  --tw-sage: #4d6a4f;
+  --tw-sage-soft: #33402f;
+  --tw-clay: #d08a63;
+  --tw-clay-hover: #d99b78;
+  --tw-success: #3f704b;
+  --tw-warning: #b98a36;
+  --tw-error: #b0503f;
+}
+
+body {
+  background-color: var(--tw-canvas);
+  color: var(--tw-ink);
+  font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
