@@ -40,6 +40,11 @@ export { CartItemRow } from "./components/CartItemRow";
 export type { CartItemRowProps } from "./components/CartItemRow";
 export { OrderSummary } from "./components/OrderSummary";
 export type { OrderSummaryProps, SummaryLine } from "./components/OrderSummary";
+export { OrderSummaryWithProduct } from "./components/OrderSummaryWithProduct";
+export type {
+  OrderSummaryWithProductProps,
+  OrderSummaryItem,
+} from "./components/OrderSummaryWithProduct";
 export { Header } from "./components/Header";
 export type { HeaderProps, NavLink } from "./components/Header";
 export { Footer } from "./components/Footer";
