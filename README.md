@@ -34,7 +34,9 @@ export function App() {
 |---|---|
 | Primitives | `Button`, `Badge`, `Input`, `FormField`, `Select`, `FilterChip`, `SizeOption`, `Swatch`, `Rating`, `QuantityStepper`, `Icon` |
 | Navigation & disclosure | `Breadcrumb`, `Accordion`, `RadioCard`, `CheckoutSteps`, `Header`, `Footer`, `CheckoutHeader` |
-| Commerce | `ProductCard`, `CartItemRow`, `OrderSummary`, `TrustBar` |
+| Commerce | `ProductCard`, `CartItemRow`, `OrderSummary`, `OrderSummaryWithProduct`, `TrustBar` |
+| Marketing & content | `HeroBanner`, `FeatureItem`, `ReviewSummary` |
+| Order confirmation | `SuccessBadge`, `OrderNumberPill`, `NextStepsCard`, `OrderConfirmation` |
 
 ## Code Connect
 
